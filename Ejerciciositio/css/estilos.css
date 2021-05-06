@@ -1,0 +1,136 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body,h1{
+    margin: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+#contenedor{
+    width:85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .header{
+        background:red;
+        text-align: left;
+        color: white;
+        padding: 16px;
+        margin-bottom: 10px;
+        }
+        .logo{
+            text-transform: uppercase;
+        }
+    .navbar{
+        background:rgb(8, 8, 82);
+        text-align: right;
+        text-transform: uppercase;
+        padding: 10px;
+        
+    }
+    .navbar ul{
+        list-style-type: none;
+        }
+        .navbar ul li{
+         
+            display: inline;
+            }
+            .navbar ul li a{
+                color:white;
+                text-decoration: none;
+                padding: 10px;
+            }
+            
+            .navbar ul li a:hover{
+              
+                border: 2px solid white;
+                border-radius: 8px;
+            }
+            .navbar ul li a:active{
+                background-color: white;
+                color:blue;
+            }
+           
+
+          
+
+    .principal{
+        background: rgb(93, 93, 93);
+        padding: 15px;
+        width:68%; 
+        float:left; 
+     }
+     .destacado{
+         padding: 15px;
+         background-color: white;
+         margin-bottom: 10px;
+     }
+     .destacado img{
+         width: 100%;
+     }
+     .destacado h2{
+         text-align: center;
+         transform: translateY(-60px);
+         margin: 0;
+         color:white;
+         text-decoration:underline;
+     }
+
+     .simple{
+         padding: 15px;
+         background-color: white;
+         width: 50%;
+         float: left;
+     }
+     figure{
+         margin:0;
+     }
+     
+     .simple figure img{
+         width:100%;
+        
+     }
+    
+
+
+
+
+    .sidebar{ 
+        width: 30%;
+        background: rgb(195, 195, 195);
+        height: 300px;
+        float:right; 
+    }
+    .footer{
+        clear:both;
+        background: red;
+        text-align: center;
+        color:white;
+        padding: 15px;
+    }
+
+    .limpiar{
+        clear:both;
+    }
+
+    .breadcrumb{padding: 10px; 
+    border-radius: 5px;background-color: cornsilk;margin-bottom: 10px;}
+
+    .noticia{color: cornsilk;}
+
+    .noticia figure img{width: 100%;}
+
+    .banner img{width: 100%;}
+
+
+    .titulonoticia{font-size: 40px; color: blue;}
+
+    .subtitulos{font-style: italic; color: black;}
