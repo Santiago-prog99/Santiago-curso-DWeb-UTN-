@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta HTML5</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <main id="contenedor">
+
+        <header class="header">
+            <div class="logo">
+                <h1>MUNDO CASLA</h1>
+            </div>    
+        </header>
+       
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">productos</a>
+                   
+                </li>
+                <li>
+                    <a href="">noticias</a>
+                </li>
+                <li>
+                    <a href="">Contacto</a>
+                </li>
+                
+            </ul>
+            <div class="limpiar"></div>
+        </nav>
+        
+<section class=principal>
+
+       <div class="breadcrumb">
+           <a href="index.html" style="color: brown;">Home</a> / <a href="index.html" style="color: brown;">
+              
+           </a>
+           <span>
+           Contacto
+              </span>
+       </div>
+
+
+
+      
+
+
+    <form action="mailto:srombola41@gmail.com" method="POST" id="formcontacto">
+
+
+        <div class="foto">
+
+            <img src="img/perfil.jpeg" alt="perfil" class="perfil">
+            <label>
+
+                <input type="image" name="fotocarnet"> Subir foto
+            </label>
+            </div>
+
+<div class="carnet">
+<div style="margin-top: 10px;">
+<label>
+
+    <span>Apellido y Nombre:</span>
+    <input type="text" name="nombreyapellido">
+</label>
+
+<br>
+
+<label>
+<span>Documento:</span>
+<div style="display: block;">
+<select name="tipodni">
+
+    <option value="dni">dni</option>
+    <option value="le">le </option>
+    <option value="lc">lc </option>
+
+</select>
+<input type="number" name="documento">
+
+</div>
+
+</label>
+<label>
+
+    <span>Categoria:</span>
+    <br>
+    <select name="categoria"> 
+
+ <option value="infantilSimple">Infantil Simple</option>
+ <option value="infantilPleno">Infantil Pleno</option>
+ <option value="cadeteSimple">Cadete Simple</option>
+ <option value="cadetePleno">Cadete Pleno</option>
+ <option value="activoSimple">Activo Simple</option>
+ <option value="activoPleno">Activo Pleno</option>
+
+
+    </select>
+</label>
+<br>
+<label>
+    <span>Nro de Socio:</span>
+<input type="text" name="numeroDeSocio">
+
+
+</label>
+<br>
+<label>
+    <span>Email:</span> <br>
+    <input type="email" name="mailpersonal">
+</label>
+</div>
+
+</div>
+
+
+    </form>
+
+    <div class="hacetesocio">
+        <span>HACERME SOCIO</span> <br>
+        <input type="submit" name="asociarme" class="enviar">
+        
+               </div>
+   
+
+
+ </section>
+
+       
+
+        <aside class="sidebar">
+        
+    <img src="img/escudo.jpeg" style="width: 100%;">
+
+
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; 2021 - Derechos reservados</p>
+            <p>Desarrollador por <a href="mailto:srombola41@gmail.com">Santiago Rombolá</a></p>
+        </footer>
+
+   </main>
+
+</body>
+</html>
