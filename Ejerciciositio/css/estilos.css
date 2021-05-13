@@ -11,6 +11,24 @@ body,h1{
 }
 
 
+#formcontacto
+
+{ display: flex; justify-content: space-around; background-color: rgb(2, 2, 88); padding: 40px;
+    color: red; margin:auto;
+}
+.perfil{width: 100%;}
+.carnet{background-color: white;padding: 20px; width: 60%;
+   }
+
+.foto{
+ width: 40%; box-sizing: border-box; margin-right: 20px;background-color: whitesmoke;
+}
+
+.hacetesocio{font-family: fantasy;font-size: 30px; color:red;
+    background-color: rgb(4, 4, 100);text-align: center;margin-top: 20px;}
+
+.enviar{margin-bottom: 4px;}
+
 
 #contenedor{
     width:85%;
@@ -134,3 +152,6 @@ body,h1{
     .titulonoticia{font-size: 40px; color: blue;}
 
     .subtitulos{font-style: italic; color: black;}
+
+
+    
